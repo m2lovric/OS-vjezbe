@@ -14,4 +14,4 @@ mkdir vjezba3 && mkdir vjezba3/backup && cd vjezba3 && touch notes.txt todo.txt 
 
 Zadatak 4.
 
-mkdir vjezba4 && mkdir vjezba4/subfolder && cd vjezba4 && touch $HOSTNAME && mv $HOSTNAME $USER && mv $USER ./subfolder && cd .. && rm ./vjezba4/subfolder/$USER
+mkdir vjezba4 && mkdir vjezba4/subfolder && cd vjezba4 && touch $HOSTNAME && mv $HOSTNAME $USER && mv $USER ./subfolder && cd .. && rm ./$PWD/OS1/vjezba4/subfolder/$USER
