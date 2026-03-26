@@ -26,3 +26,11 @@ total 24
 -rw-r--r--  1 matteolovric  staff  36 Mar 26 18:00 style.css
 -rw-r--r--  1 matteolovric  staff  29 Mar 26 18:00 script.js
 -rw-r--r--  1 matteolovric  staff  10 Mar 26 17:45 .env
+
+Vjezba 5.
+
+cd ../../baze_podataka                      
+ls -alS                     
+ls -lSh 
+ls -lShR
+tree -a          

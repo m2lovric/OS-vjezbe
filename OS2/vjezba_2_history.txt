@@ -1,0 +1,94 @@
+1316* cd OS-vjezbe
+ 1317* ls
+ 1318* mkdir OS2
+ 1319* cd OS2
+ 1320* ls
+ 1321* code . -r
+ 1322  ls
+ 1323  cd ..
+ 1324  cd .
+ 1325  cd ..
+ 1326  ls
+ 1327  cd OS-vjezbe/OS2
+ 1328  clear
+ 1329  mkdir -p vjezba_2/data
+ 1330  mkdir -p vjezba_2/backup
+ 1331  touch vjezba_2.txt
+ 1332  ls
+ 1333  cd vjezba_2/data && touch script.js style.css .env
+ 1334  echo 'console.log("Hello, World!")' > script.js
+ 1335  echo 'body { background-color: #f0f0f0; }' > style.css
+ 1336  echo 'VJEZBE=OS' > .env
+ 1337  cat script.js
+ 1338  cat style.css
+ 1339  cat .env
+ 1340  git add .
+ 1341  git commit -m "Vjezba02 zadatak2"
+ 1342  git push -u origin main
+ 1343  cd ..
+ 1344  ls
+ 1345  git add .
+ 1346  git commit -m "Vjezba02 zadatak2"
+ 1347  git push -u origin main
+ 1348  cp -ra ./vjezba_2/data ./vjezba_2/backup
+ 1349  cp -a -r ./vjezba_2/data ./vjezba_2/backup
+ 1350  cp -r ./vjezba_2/data ./vjezba_2/backup
+ 1351* ls
+ 1352* cd vjezba_2/backup
+ 1353* ls /a
+ 1354* ls -a
+ 1355* cd data
+ 1356* ls
+ 1357* ls -a
+ 1358  cd vjezba_2/backup
+ 1359  ls
+ 1360  rm -rf data
+ 1361  ls
+ 1362  cd ..
+ 1363  cd vjezba_2/data
+ 1364  ls
+ 1365  cd data
+ 1366  ls
+ 1367  cp -r * ../backup
+ 1368* ls
+ 1369* cd ..
+ 1370* ls
+ 1371* cd backup
+ 1372* ls
+ 1373* ls -a
+ 1374  cp -r ./ ../backup
+ 1375* ls
+ 1376* cp -r ./ ../backup
+ 1377* ls -a
+ 1378* ls -la -S 
+ 1379  ls -la -S
+ 1380* ls
+ 1381* cd ..
+ 1382* ls
+ 1383* cd data
+ 1384  ls -la -S ../backup
+ 1385  cd ../../..
+ 1386  cd OS2
+ 1387  git add .
+ 1388  git commit -m "Vjezba02 zadatak3"
+ 1389  git push -u origin main
+ 1390  ls
+ 1391  rm -i vjezba_2/data/*
+ 1392  cp -avn ./vjezba_2/backup/. ./vjezba_2/data 
+ 1393  ls -lt1A ./vjezba_2/data
+ 1394  ls -l -t -1 -A -v ./vjezba_2/data
+ 1395  ls -l -t -1  ./vjezba_2/data
+ 1396  ls -A -l -t -1  ./vjezba_2/data
+ 1397  ls -A -l -t  ./vjezba_2/data
+ 1398  git add .
+ 1399  git commit -m "Vjezba02 zadatak4"
+ 1400  git push -u origin main
+ 1401  cd ../../baze_podataka
+ 1402  ls -alS 
+ 1403  ls -lSh 
+ 1404  ls -lShR
+ 1405  tree -a
+ 1406  cd ../OS-vjezbe
+ 1407  git add .
+ 1408  git commit -m "Vjezba02 zadatak5"
+ 1409  git push -u origin main
