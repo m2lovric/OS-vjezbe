@@ -10,3 +10,19 @@ echo 'VJEZBE=OS' > .env
 cat script.js                                     
 cat style.css                                         
 cat .env     
+
+Vjezba 3.
+
+cd data         
+cp -r ./ ../backup
+ls -la -S ../backup
+
+Vjezba 4.
+cp -avn ./vjezba_2/backup/. ./vjezba_2/data 
+ls -l -t -1 -A -v ./vjezba_2/data
+
+➜  OS2 git:(main) ls -A -l -t  ./vjezba_2/data 
+total 24
+-rw-r--r--  1 matteolovric  staff  36 Mar 26 18:00 style.css
+-rw-r--r--  1 matteolovric  staff  29 Mar 26 18:00 script.js
+-rw-r--r--  1 matteolovric  staff  10 Mar 26 17:45 .env
