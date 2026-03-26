@@ -1,0 +1,12 @@
+Vjezba 2.
+
+mkdir -p vjezba_2/data
+mkdir -p vjezba_2/backup
+touch vjezba_2.txt
+cd vjezba_2/data && touch script.js style.css .env
+echo 'console.log("Hello, World!")' > script.js                                                
+echo 'body { background-color: #f0f0f0; }' > style.css
+echo 'VJEZBE=OS' > .env                               
+cat script.js                                     
+cat style.css                                         
+cat .env     
